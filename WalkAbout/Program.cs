@@ -11,8 +11,6 @@ namespace WalkAbout
     {
         static void Main(string[] args)
         {
-
-
             var currentTime = DateTime.Now.Minute;
             var nextHour = DateTime.Now.Hour;
             Console.WriteLine($"\n\nEnter the INTERVAL for the Alarm.");
